@@ -1,27 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
 body {
     padding-top: 60px;
     padding-bottom: 60px;
+    background: #1c1c1c;
+    color: #dcdccc;
+    font-family: 'Inconsolata' !important;
 }
 
-.copyright {
-    color: #ffffff;
+a {
+    color: #3465a4 !important;
+}
+
+a:hover {
+    color: #75507b !important;
 }
 
 .footer {
     text-align: center;
 }
 
-.footer a {
-    color: #ee4444;
-}
-
 .sidebar h1 {
-    color: #ee4444;
+    color: #a40000 !important;
     font-size: 1.3em;
-}
-
-.sidebar a {
-    color: #428bca;
 }
 
 .sidebar li {
@@ -29,23 +30,19 @@ body {
     line-height: 1em;
 }
 
-.sidebar a:hover {
-    color: #3071a9;
-}
-
 .container-left {
     margin: 0;
 }
 
+.well {
+    background: #1c1c1c;
+    border-color: #4e9a06
+}
+
 .well h1 {
-    color: #ee4444;
     font-size: 1.3em;
 }
 
 .author {
-    color: #ee4444;
-}
-
-.author a {
-    color: #ee4444;
+    color: #dcdccc;
 }
